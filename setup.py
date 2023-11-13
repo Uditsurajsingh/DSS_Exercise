@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my_package',  # Replace with your package name
+    name='math_quiz',  # Replace with your package name
     version='0.1.0',  # Specify your package version
     packages=find_packages(),  # Automatically discover and include all packages
     install_requires=[
@@ -19,4 +19,3 @@ setup(
         # Add other classifiers as needed
     ],
 )
-    
