@@ -9,17 +9,13 @@ def operator():
     picking a random operator
     """
     return random.choice(['+', '-', '*'])
-
-
 def calculator(n1, n2, o):
-
-# Solving the expressing and returning problem and 
+# Solving the expressing and returning problem and
     p = f"{n1} {o} {n2}"
     if o == '+': a = n1 + n2
     elif o == '-': a = n1 - n2
     else: a = n1 * n2
     return p, a
-
 def math_quiz():
     s = 0
     t_q = 4
